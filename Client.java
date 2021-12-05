@@ -13,5 +13,9 @@ public class Client {
         subject.attach(obs3);
 
         subject.cry();
+        subject.detach(obs3);
+        obs3= new Dog();
+        subject.attach(obs3);
+        subject.cry();
     }
 }
